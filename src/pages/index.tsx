@@ -2,6 +2,7 @@ import type {ReactNode} from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
 
@@ -11,22 +12,22 @@ const docCards = [
   {
     title: 'Product',
     description: 'Market research, user stories, and target customers.',
-    link: '/docs/product/01-market-research-and-differentiation',
+    link: '/docs/product/market-research-and-differentiation',
   },
   {
     title: 'Architecture',
     description: 'System design, permissions, auth strategy, feature flags.',
-    link: '/docs/architecture/02-architecture',
+    link: '/docs/architecture/architecture',
   },
   {
     title: 'UX & Design',
     description: 'Design system, screen designs, and visual assets.',
-    link: '/docs/ux-design/06-ui-ux-design-system',
+    link: '/docs/ux-design/ui-ux-design-system',
   },
   {
     title: 'Engineering',
     description: 'Tech landscape, roadmap, and infrastructure automation.',
-    link: '/docs/engineering/03-technology-landscape',
+    link: '/docs/engineering/technology-landscape',
   },
   {
     title: 'Operations',
@@ -39,6 +40,10 @@ const downloads = [
   {
     label: 'App store launch checklist (CSV)',
     link: '/files/app-store-launch-checklist.csv',
+  },
+  {
+    label: 'App store launch checklist (XLSX)',
+    link: '/files/app-store-launch-checklist.xlsx',
   },
   {
     label: 'App store launch summary (CSV)',
@@ -65,7 +70,7 @@ function HomepageHeader() {
               <Link className="button button--primary" to="/docs/intro">
                 Start here
               </Link>
-              <Link className="button button--outline" to="/docs/product/01-market-research-and-differentiation">
+              <Link className="button button--outline" to="/docs/product/market-research-and-differentiation">
                 Explore product docs
               </Link>
             </div>
@@ -124,9 +129,9 @@ export default function Home(): ReactNode {
               {downloads.map((item) => (
                 <div key={item.label} className={styles.downloadItem}>
                   <span>{item.label}</span>
-                  <Link to={item.link}>
+                  <a href={useBaseUrl(item.link)}>
                     Download
-                  </Link>
+                  </a>
                 </div>
               ))}
             </div>

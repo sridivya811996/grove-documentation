@@ -45,6 +45,7 @@ const config: Config = {
           versions: {
             current: {
               label: 'Next',
+              path: '',
             },
           },
         },
