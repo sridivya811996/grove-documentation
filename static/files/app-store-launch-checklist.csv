@@ -1,272 +1,271 @@
-Sequence,Priority,Phase,Store,Category,Activity,Description,Deliverable,How To Do It,Dependencies,Owner,Target Date,Cost INR,Cost USD,Timeline,Status,Notes
-1,P0,Pre-Launch,Both,Legal,Create Privacy Policy,"Required by both stores. Must detail data collection, storage, usage, third-party sharing, user rights (GDPR/CCPA).",,"1. Use privacy policy generator (iubenda.com or privacypolicies.com)
+#,Priority,Phase,Store,Category,Activity,Description,Deliverable,How To Do It,Dependencies,Status,Documentation,Owner,Target Date,Cost INR,Cost USD,Timeline,Notes
+1,P0,Pre-Launch,Both,Legal,Create Privacy Policy,"Required by both stores. Must detail data collection, storage, usage, third-party sharing, user rights (GDPR/CCPA).",Privacy Policy document,"1. Use privacy policy generator (iubenda.com or privacypolicies.com)
 2. Customize for your data practices
 3. Host on your website/GitHub Pages
-4. Add URL to app stores and in-app settings",Website or hosting for policy page,,,0-2000,0-25,1-2 days,Not Started,Free generators available. Must be publicly accessible URL
-2,P0,Pre-Launch,Both,Legal,Create Terms of Service,User agreement for app usage. Required for both stores.,,"1. Use ToS generator (termly.io or similar)
+4. Add URL to app stores and in-app settings",Website or hosting for policy page,Done,grove-documentation/docs/legal/privacy-policy.md,,,0,0,1-2 days,Complete privacy policy with data collection tables. Ready to host.
+2,P0,Pre-Launch,Both,Legal,Create Terms of Service,User agreement for app usage. Required for both stores.,Terms of Service document,"1. Use ToS generator (termly.io or similar)
 2. Include user conduct rules, liability limitations
 3. Cover community guidelines
-4. Host publicly",Privacy Policy completed,,,0-2000,0-25,1-2 days,Not Started,Can use free template and customize
-3,P0,Pre-Launch,iOS,Legal,Create EULA (iOS),End User License Agreement required for iOS apps.,,"1. Apple provides standard EULA
+4. Host publicly",Privacy Policy completed,Done,grove-documentation/docs/legal/terms-of-service.md,,,0,0,1-2 days,Complete ToS with all sections. Ready to host.
+3,P0,Pre-Launch,iOS,Legal,Create EULA (iOS),End User License Agreement required for iOS apps.,EULA document,"1. Apple provides standard EULA
 2. Can customize if needed
-3. Add to App Store Connect metadata",None,,,0,0,1 day,Not Started,Can use Apple's standard EULA
-4,P0,Pre-Launch,Android,Accounts,Create Google Play Developer Account,Required to publish on Play Store. One-time registration fee.,,"1. Go to play.google.com/console
+3. Add to App Store Connect metadata",None,Not Started,,,,0,0,1 day,Can use Apple's standard EULA
+4,P0,Pre-Launch,Android,Accounts,Create Google Play Developer Account,Required to publish on Play Store. One-time registration fee.,Play Console account,"1. Go to play.google.com/console
 2. Sign in with Google account
 3. Pay $25 one-time fee
 4. Complete account details
-5. Verify identity (can take 48hrs)",Google account with payment method,,,2075,25,2-3 days,Not Started,$25 one-time fee. Use business account if possible
-5,P0,Pre-Launch,iOS,Accounts,Create Apple Developer Account,Required to publish on App Store. Annual subscription.,,"1. Go to developer.apple.com/enroll
+5. Verify identity (can take 48hrs)",Google account with payment method,Not Started,,,,2075,25,2-3 days,$25 one-time fee. Use business account if possible
+5,P0,Pre-Launch,iOS,Accounts,Create Apple Developer Account,Required to publish on App Store. Annual subscription.,Apple Developer account,"1. Go to developer.apple.com/enroll
 2. Sign in with Apple ID
 3. Pay $99/year
-4. Complete enrollment (can take 48hrs)",Apple ID + Payment method,,,8225,99,2-5 days,Not Started,$99/year recurring. Required for iOS distribution
-6,P0,Pre-Launch,Both,Marketing,Set Up Waitlist Landing Page,Gauge interest before launch. Collect early adopters emails.,,"1. Create landing page on Framer (free tier)
+4. Complete enrollment (can take 48hrs)",Apple ID + Payment method,Not Started,,,,8225,99,2-5 days,$99/year recurring. Required for iOS distribution
+6,P0,Pre-Launch,Both,Marketing,Set Up Waitlist Landing Page,Gauge interest before launch. Collect early adopters emails.,Landing page live,"1. Create landing page on Framer (free tier)
 2. Add compelling headline and app preview
 3. Integrate Formspree/Formsspark for email collection
 4. Add social proof and features preview
-5. Set up thank you page with social sharing",Domain (optional),,,0-1500,0-18,1-2 days,Not Started,Framer free tier works. Formsspark free: 250 submissions/month
-7,P1,Pre-Launch,Both,Marketing,Set Up Pre-Launch Email Sequence,Nurture waitlist subscribers until launch.,,"1. Use Loops.so or Mailchimp for email automation
+5. Set up thank you page with social sharing",Domain (optional),Not Started,,,,0-1500,0-18,1-2 days,Framer free tier works. Formsspark free: 250 submissions/month
+7,P1,Pre-Launch,Both,Marketing,Set Up Pre-Launch Email Sequence,Nurture waitlist subscribers until launch.,Email sequence configured,"1. Use Loops.so or Mailchimp for email automation
 2. Create welcome email for signup
 3. Create 2-3 teaser emails with feature previews
 4. Create launch day announcement email
-5. Schedule sequence",Waitlist page + Email tool,,,0-2500,0-30,1-2 days,Not Started,Loops.so free: 1000 contacts. Mailchimp free: 500 contacts
-8,P0,Pre-Launch,Both,Branding,Finalize App Name,Grove - ensure name is available on both stores.,,"1. Search Play Store for 'Grove'
+5. Schedule sequence",Waitlist page + Email tool,Not Started,,,,0-2500,0-30,1-2 days,Loops.so free: 1000 contacts. Mailchimp free: 500 contacts
+8,P0,Pre-Launch,Both,Branding,Finalize App Name,Grove - ensure name is available on both stores.,Confirmed app name,"1. Search Play Store for 'Grove'
 2. Search App Store for 'Grove'
 3. If taken, consider 'Grove Community' or similar
-4. Update app.json with final name",None,,,0,0,1 day,In Progress,Current name: Grove
-9,P0,Pre-Launch,Both,Branding,Create App Icon,1024x1024 icon for stores. Multiple sizes for devices.,,"1. Design 1024x1024 master icon
+4. Update app.json with final name",None,In Progress,,,,0,0,1 day,Current name: Grove
+9,P0,Pre-Launch,Both,Branding,Create App Icon,1024x1024 icon for stores. Multiple sizes for devices.,App icon assets,"1. Design 1024x1024 master icon
 2. Use icon generators for all sizes
 3. Android: Adaptive icon (foreground + background)
 4. iOS: Solid corners (system rounds them)
-5. Update assets in expo project",Branding guidelines,,,0-15000,0-180,2-3 days,In Progress,Icons exist in docs/assets. Verify final quality
-10,P0,Pre-Launch,Android,Branding,Create Feature Graphic (Android),1024x500 banner for Play Store listing.,,"1. Design landscape banner
+5. Update assets in expo project",Branding guidelines,In Progress,,,,0-15000,0-180,2-3 days,Icons exist in docs/assets. Verify final quality
+10,P0,Pre-Launch,Android,Branding,Create Feature Graphic (Android),1024x500 banner for Play Store listing.,Feature graphic image,"1. Design landscape banner
 2. Include app name and tagline
 3. Showcase key feature or screenshots
-4. Follow Google's design guidelines",App Icon + Branding,,,0-8000,0-100,1-2 days,Not Started,Required for Play Store. Can use Canva free
-11,P0,Pre-Launch,Both,Assets,Create Professional App Screenshots,Store listing screenshots - CRITICAL for conversion.,,"1. Use TheScreenshotFirstCompany or similar service
+4. Follow Google's design guidelines",App Icon + Branding,Not Started,grove-documentation/docs/operations/store-listing-android.md,,,0-8000,0-100,1-2 days,Required for Play Store. Can use Canva free. Guidelines in docs.
+11,P0,Pre-Launch,Both,Assets,Create Professional App Screenshots,Store listing screenshots - CRITICAL for conversion.,Screenshot set for all devices,"1. Use TheScreenshotFirstCompany or similar service
 2. Capture 8 key screens per device size
 3. Add compelling captions and context frames
 4. A/B test different styles
-5. Include lifestyle/mockup versions",Working app + Device mockups,,,8000-40000,100-500,3-5 days,Not Started,Professional screenshots increase downloads 25-35%. Worth the investment.
-12,P1,Pre-Launch,Both,Assets,Create App Preview Video,15-30 second video showing app in action.,,"1. Screen record key user flows
+5. Include lifestyle/mockup versions",Working app + Device mockups,Not Started,,,,8000-40000,100-500,3-5 days,Professional screenshots increase downloads 25-35%. Worth the investment.
+12,P1,Pre-Launch,Both,Assets,Create App Preview Video,15-30 second video showing app in action.,Preview video,"1. Screen record key user flows
 2. Add captions and music
 3. iOS: 1920x1080 or device resolution
 4. Android: YouTube video link
-5. Edit with iMovie/Premiere/Canva",Working app,,,0-10000,0-120,2-3 days,Not Started,Optional but highly recommended. Free tools available
-13,P0,Pre-Launch,iOS,Content,Write App Store Description with ASO,Short and full description optimized for search.,,"1. Use AppTweak, SensorTower, or ASO.dev for keyword research
+5. Edit with iMovie/Premiere/Canva",Working app,Not Started,,,,0-10000,0-120,2-3 days,Optional but highly recommended. Free tools available
+13,P0,Pre-Launch,iOS,Content,Write App Store Description with ASO,Short and full description optimized for search.,App Store descriptions,"1. Use AppTweak, SensorTower, or ASO.dev for keyword research
 2. Write compelling 80-char short description
 3. Write 4000-char full description with keywords
 4. Highlight key features with bullet points
-5. Include call-to-action",Finalized feature list + ASO tool,,,0-8000,0-100,1-2 days,Not Started,"ASO tools: AppTweak $69/mo, SensorTower $79/mo. Free trials available."
-14,P1,Pre-Launch,iOS,Content,Optimize Keywords (iOS),100-character keyword field for App Store search.,,"1. Research competitor keywords
+5. Include call-to-action",Finalized feature list + ASO tool,Done,grove-documentation/docs/operations/store-listing-ios.md,,,0,0,1-2 days,"Copy-paste ready. Subtitle, promotional text, full description included."
+14,P1,Pre-Launch,iOS,Content,Optimize Keywords (iOS),100-character keyword field for App Store search.,Keyword list,"1. Research competitor keywords
 2. Use ASO tool for keyword suggestions
 3. Prioritize high-traffic low-competition keywords
 4. Include location terms if relevant
-5. Update keywords after launch based on data",ASO tool subscription,,,0-5000,0-60,1 day,Not Started,Keywords are iOS only - very important for discoverability
-15,P1,Pre-Launch,Both,Content,Write Release Notes,What's new in this version for each release.,,"1. List new features
+5. Update keywords after launch based on data",ASO tool subscription,Done,grove-documentation/docs/operations/store-listing-ios.md,,,0,0,1 day,"97 chars optimized: community,events,groups,organizer,RWA,club,association,polls,tasks,meetings,members,social,planning"
+15,P1,Pre-Launch,Both,Content,Write Release Notes,What's new in this version for each release.,Release notes,"1. List new features
 2. Mention bug fixes
 3. Keep it concise and user-friendly
-4. Update with each release",Version planning,,,0,0,1 day,Not Started,Keep template ready for future releases
-16,P0,Pre-Launch,Both,Technical,Configure App Bundle ID / Package Name,Unique identifier for The Grove app. Cannot change after publish.,,"1. Choose format: com.grove.app or similar
+4. Update with each release",Version planning,Done,grove-documentation/docs/operations/release-notes.md,,,0,0,1 day,v1.0.0 notes complete + template for future releases
+16,P0,Pre-Launch,Both,Technical,Configure App Bundle ID / Package Name,Unique identifier for the Grove app. Cannot change after publish.,Bundle ID configured,"1. Choose format: com.grove.app or similar
 2. Update app.json ios.bundleIdentifier
 3. Update app.json android.package
-4. Ensure consistency",None,,,0,0,1 hour,In Progress,Current: com.grove.app - verify availability
-17,P0,Pre-Launch,Android,Technical,Configure App Signing (Android),Generate and secure upload key for Play Store.,,"1. EAS Build handles this automatically
+4. Ensure consistency",None,In Progress,,,,0,0,1 hour,Current: com.grove.app - verify availability on stores
+17,P0,Pre-Launch,Android,Technical,Configure App Signing (Android),Generate and secure upload key for Play Store.,Keystore file + backup,"1. EAS Build handles this automatically
 2. Or generate manually: keytool -genkey
 3. Store keystore securely (backup!)
-4. Never lose the keystore",EAS or local build setup,,,0,0,1-2 hours,Not Started,CRITICAL: Backup keystore. Loss = new app listing
-18,P0,Pre-Launch,iOS,Technical,Configure App Signing (iOS),Certificates and provisioning profiles.,,"1. EAS Build handles automatically
+4. Never lose the keystore",EAS or local build setup,Not Started,,,,0,0,1-2 hours,CRITICAL: Backup keystore. Loss = new app listing. EAS handles this.
+18,P0,Pre-Launch,iOS,Technical,Configure App Signing (iOS),Certificates and provisioning profiles.,Certs + profiles,"1. EAS Build handles automatically
 2. Or manually: Create distribution certificate
 3. Create App Store provisioning profile
-4. Match bundle ID exactly",Apple Developer Account,,,0,0,1-2 hours,Not Started,EAS simplifies this significantly
-19,P0,Pre-Launch,Both,Technical,Set Up EAS Build,Configure Expo Application Services for builds.,,"1. Install eas-cli: npm install -g eas-cli
+4. Match bundle ID exactly",Apple Developer Account,Not Started,,,,0,0,1-2 hours,EAS simplifies this significantly
+19,P0,Pre-Launch,Both,Technical,Set Up EAS Build,Configure Expo Application Services for builds.,eas.json configured,"1. Install eas-cli: npm install -g eas-cli
 2. Run: eas login
 3. Run: eas build:configure
 4. Configure eas.json for production builds
-5. Test with: eas build --platform all",Expo account + Developer accounts,,,0,0,1-2 hours,Not Started,Free tier: 30 builds/month
-20,P0,Pre-Launch,Android,Technical,Create Production Build (Android),Generate AAB file for Play Store.,,"1. Update version in app.json
+5. Test with: eas build --platform all",Expo account + Developer accounts,Done,,,,0,0,1-2 hours,"Already configured in eas.json with development, preview, production profiles"
+20,P0,Pre-Launch,Android,Technical,Create Production Build (Android),Generate AAB file for Play Store.,AAB file,"1. Update version in app.json
 2. Run: eas build --platform android --profile production
 3. Wait for build to complete
-4. Download AAB file",EAS Build configured + App Signing,,,0,0,30-60 mins,Not Started,AAB required (not APK) for new apps
-21,P0,Pre-Launch,iOS,Technical,Create Production Build (iOS),Generate IPA file for App Store.,,"1. Update version in app.json
+4. Download AAB file",EAS Build configured + App Signing,Not Started,,,,0,0,30-60 mins,AAB required (not APK) for new apps on Play Store
+21,P0,Pre-Launch,iOS,Technical,Create Production Build (iOS),Generate IPA file for App Store.,IPA file,"1. Update version in app.json
 2. Run: eas build --platform ios --profile production
 3. Wait for build to complete
-4. Submit directly or download IPA",EAS Build configured + App Signing,,,0,0,30-60 mins,Not Started,Can submit directly from EAS
-22,P1,Pre-Launch,Both,Technical,Configure Push Notifications,Set up FCM and APNS for production.,,"1. Create Firebase project (if not exists)
+4. Submit directly or download IPA",EAS Build configured + App Signing,Not Started,,,,0,0,30-60 mins,Can submit directly from EAS to App Store Connect
+22,P1,Pre-Launch,Both,Technical,Configure Push Notifications,Set up FCM and APNS for production.,Push notifications working,"1. Create Firebase project (if not exists)
 2. Download google-services.json
 3. Create APNs key in Apple Developer
 4. Upload to Expo/EAS
-5. Test notifications",Firebase account + Apple Developer,,,0,0,2-4 hours,Not Started,FCM is free. APNS included in dev account
-23,P0,Pre-Launch,Both,Technical,Set Up In-App Analytics,"Track user behavior, retention, and drop-off points.",,"1. Integrate Mixpanel, Amplitude, or PostHog
+5. Test notifications",Firebase account + Apple Developer,Not Started,,,,0,0,2-4 hours,FCM is free. APNS included in dev account
+23,P0,Pre-Launch,Both,Technical,Set Up In-App Analytics,"Track user behavior, retention, and drop-off points.",Analytics dashboard,"1. Integrate Mixpanel, Amplitude, or PostHog
 2. Track key events: signup, create_community, invite, event_create
 3. Set up funnels for core user journeys
 4. Create retention cohorts
-5. Set up dashboards for daily review",Analytics account,,,0-10000,0-120,2-4 hours,Not Started,PostHog free: 1M events/mo. Mixpanel free: 100K events/mo. CRITICAL for understanding churn.
-24,P1,Pre-Launch,Both,Technical,Set Up Error Monitoring,Configure Sentry or similar for production.,,"1. Create Sentry project
+5. Set up dashboards for daily review",Analytics account,Not Started,,,,0-10000,0-120,2-4 hours,PostHog free: 1M events/mo. Mixpanel free: 100K events/mo. CRITICAL for understanding churn.
+24,P1,Pre-Launch,Both,Technical,Set Up Error Monitoring,Configure Sentry or similar for production.,Sentry configured,"1. Create Sentry project
 2. Add expo-sentry package
 3. Configure dsn and settings
 4. Test error reporting
-5. Set up alerts",Sentry account,,,0,0,1-2 hours,Not Started,Free tier: 5K errors/month
-25,P0,Pre-Launch,Both,Backend,Configure Production Supabase,Ensure Supabase is production-ready.,,"1. Enable RLS on all tables
+5. Set up alerts",Sentry account,Not Started,,,,0,0,1-2 hours,Free tier: 5K errors/month
+25,P0,Pre-Launch,Both,Backend,Configure Production Supabase,Ensure Supabase is production-ready.,Production-ready Supabase,"1. Enable RLS on all tables
 2. Set up proper auth redirect URLs
 3. Configure rate limiting
 4. Set up database backups
-5. Review security policies",Supabase project,,,0-2000/mo,0-25/mo,2-4 hours,Not Started,Free tier sufficient for launch. Upgrade as needed
-26,P0,Pre-Launch,Both,Backend,Set Environment Variables,Configure production environment.,,"1. Set SUPABASE_URL and ANON_KEY
+5. Review security policies",Supabase project,Not Started,,,,0-2000/mo,0-25/mo,2-4 hours,Free tier sufficient for launch. Upgrade as needed
+26,P0,Pre-Launch,Both,Backend,Set Environment Variables,Configure production environment.,Env vars configured,"1. Set SUPABASE_URL and ANON_KEY
 2. Configure GOOGLE_CLIENT_ID
 3. Set up API keys in EAS secrets
-4. Verify all production URLs",Supabase + Auth providers,,,0,0,1-2 hours,Not Started,Use EAS Secrets for sensitive values
-27,P1,Pre-Launch,Both,Marketing,Set Up Feedback Board (Canny),Collect feature requests and feedback from users.,,"1. Create Canny account (free tier)
+4. Verify all production URLs",Supabase + Auth providers,Not Started,,,,0,0,1-2 hours,Use EAS Secrets for sensitive values
+27,P1,Pre-Launch,Both,Marketing,Set Up Feedback Board (Canny),Collect feature requests and feedback from users.,Canny board live,"1. Create Canny account (free tier)
 2. Set up feedback board categories
 3. Customize branding
 4. Add feedback link in app settings
-5. Configure email notifications for new feedback",Canny account,,,0,0,1-2 hours,Not Started,Canny free: 100 tracked users. Essential for product roadmap.
-28,P2,Pre-Launch,Android,Testing,Internal Testing (Android),Test with internal team before public.,,"1. Create internal test track in Play Console
+5. Configure email notifications for new feedback",Canny account,Not Started,,,,0,0,1-2 hours,Canny free: 100 tracked users. Essential for product roadmap.
+28,P2,Pre-Launch,Android,Testing,Internal Testing (Android),Test with internal team before public.,Internal test feedback,"1. Create internal test track in Play Console
 2. Upload AAB
 3. Add tester emails (up to 100)
 4. Share opt-in link
-5. Gather feedback",Production build + Developer account,,,0,0,2-3 days,Not Started,"Fastest approval, no review needed"
-29,P2,Pre-Launch,iOS,Testing,TestFlight Testing (iOS),Beta testing with TestFlight.,,"1. Upload build to App Store Connect
+5. Gather feedback",Production build + Developer account,Not Started,,,,0,0,2-3 days,"Fastest approval, no review needed"
+29,P2,Pre-Launch,iOS,Testing,TestFlight Testing (iOS),Beta testing with TestFlight.,TestFlight feedback,"1. Upload build to App Store Connect
 2. Add internal testers (up to 100)
 3. Submit for external beta (up to 10,000)
-4. Gather feedback via TestFlight",Production build + Developer account,,,0,0,3-5 days,Not Started,External TestFlight requires review
-30,P0,Launch,Android,Submission,Complete Play Store Listing,Fill in all required store listing details.,,"1. Upload app icon
+4. Gather feedback via TestFlight",Production build + Developer account,Not Started,,,,0,0,3-5 days,External TestFlight requires review
+30,P0,Launch,Android,Submission,Complete Play Store Listing,Fill in all required store listing details.,Store listing complete,"1. Upload app icon
 2. Upload feature graphic
 3. Upload professional screenshots
 4. Write optimized descriptions
 5. Complete content rating questionnaire
 6. Set pricing (free)
-7. Select countries",All assets + Descriptions ready,,,0,0,2-3 hours,Not Started,Content rating questionnaire takes 15-20 mins
-31,P0,Launch,iOS,Submission,Complete App Store Listing,Fill in all App Store Connect details.,,"1. Create new app in App Store Connect
+7. Select countries",All assets + Descriptions ready,Partial,grove-documentation/docs/operations/store-listing-android.md,,,0,0,2-3 hours,Descriptions + Data Safety answers ready. Need screenshots + feature graphic.
+31,P0,Launch,iOS,Submission,Complete App Store Listing,Fill in all App Store Connect details.,Store listing complete,"1. Create new app in App Store Connect
 2. Upload screenshots for all sizes
 3. Write descriptions
 4. Add optimized keywords (100 chars max)
 5. Set pricing (free)
-6. Answer export compliance questions",All assets + Descriptions ready,,,0,0,2-3 hours,Not Started,Keywords are iOS only - choose wisely
-32,P0,Launch,Android,Submission,Submit to Google Play Review,Submit app for Google Play review.,,"1. Complete all store listing sections
+6. Answer export compliance questions",All assets + Descriptions ready,Partial,grove-documentation/docs/operations/store-listing-ios.md,,,0,0,2-3 hours,Descriptions + Keywords + Privacy answers ready. Need screenshots.
+32,P0,Launch,Android,Submission,Submit to Google Play Review,Submit app for Google Play review.,App submitted,"1. Complete all store listing sections
 2. Upload AAB to production track
 3. Answer data safety questionnaire
 4. Submit for review
-5. Wait for approval (usually 1-3 days)",Complete store listing + Build,,,0,0,1-3 days,Not Started,First review may take longer
-33,P0,Launch,iOS,Submission,Submit to App Store Review,Submit app for App Store review.,,"1. Complete all App Store Connect sections
+5. Wait for approval (usually 1-3 days)",Complete store listing + Build,Not Started,,,,0,0,1-3 days,First review may take longer
+33,P0,Launch,iOS,Submission,Submit to App Store Review,Submit app for App Store review.,App submitted,"1. Complete all App Store Connect sections
 2. Upload build via EAS or Transporter
 3. Select build for review
 4. Answer review questions
-5. Submit for review (usually 1-2 days)",Complete store listing + Build,,,0,0,1-7 days,Not Started,"First review may take longer. Common rejections: crashes, broken links"
-34,P1,Launch,Both,Submission,Respond to Review Feedback,Handle rejection or requests.,,"1. Read rejection reason carefully
+5. Submit for review (usually 1-2 days)",Complete store listing + Build,Not Started,,,,0,0,1-7 days,"First review may take longer. Common rejections: crashes, broken links"
+34,P1,Launch,Both,Submission,Respond to Review Feedback,Handle rejection or requests.,Issues resolved,"1. Read rejection reason carefully
 2. Fix issues mentioned
 3. Submit updated build
 4. Write explanation in Resolution Center
-5. Resubmit for review",Reviewer feedback,,,0,0,1-3 days,Not Started,Keep response professional and detailed
-35,P0,Post-Launch,Both,Engagement,Set Up Welcome Email Sequence,Onboard new users and drive engagement.,,"1. Use Loops.so for email automation
+5. Resubmit for review",Reviewer feedback,Not Started,,,,0,0,1-3 days,Keep response professional and detailed
+35,P0,Post-Launch,Both,Engagement,Set Up Welcome Email Sequence,Onboard new users and drive engagement.,Email sequence live,"1. Use Loops.so for email automation
 2. Welcome email (immediate): Thank user, highlight key features
 3. Day 2: How to create your first community
 4. Day 5: Tips for engaging members
 5. Day 7 inactivity: Ask for feedback, offer help
 6. Day 14: Feature education (events, finance)
-7. Day 30: Ask for app store review",Loops.so account + Email templates,,,0-4000,0-50,2-3 days,Not Started,Loops.so free: 1000 contacts. Email sequences increase retention 30%+
-36,P1,Post-Launch,Both,Marketing,Create Landing Page,Website for app promotion and SEO.,,"1. Create simple landing page (Framer/Carrd.co free)
+7. Day 30: Ask for app store review",Loops.so account + Email templates,Not Started,,,,0-4000,0-50,2-3 days,Loops.so free: 1000 contacts. Email sequences increase retention 30%+
+36,P1,Post-Launch,Both,Marketing,Create Landing Page,Website for app promotion and SEO.,Landing page live,"1. Create simple landing page (Framer/Carrd.co free)
 2. Include screenshots and features
 3. Add store badges with links
 4. Add privacy policy link
-5. Set up domain (optional)",Published app,,,0-5000,0-60,1-2 days,Not Started,Can use free hosting initially
-37,P1,Post-Launch,Both,Marketing,Set Up Social Media Presence,Create presence for Grove.,,"1. Create Twitter/X account (@GroveCommunity)
+5. Set up domain (optional)",Published app,Not Started,,,,0-5000,0-60,1-2 days,Can use free hosting initially
+37,P1,Post-Launch,Both,Marketing,Set Up Social Media Presence,Create presence for Grove.,Social accounts created,"1. Create Twitter/X account (@GroveCommunity)
 2. Create Instagram account
 3. Create LinkedIn page (optional)
 4. Plan content calendar
-5. Share updates, tips, and user stories",Published app,,,0,0,1-2 days,Not Started,Organic social is free
-38,P2,Post-Launch,iOS,Marketing,Set Up App Store Optimization (ASO),Ongoing optimization for store visibility.,,"1. Monitor keyword rankings weekly
+5. Share updates, tips, and user stories",Published app,Not Started,,,,0,0,1-2 days,Organic social is free
+38,P2,Post-Launch,iOS,Marketing,Set Up App Store Optimization (ASO),Ongoing optimization for store visibility.,ASO process established,"1. Monitor keyword rankings weekly
 2. A/B test icons and screenshots
 3. Encourage ratings and reviews
 4. Respond to all user reviews
-5. Update keywords based on performance data",Published app + ASO tool,,,0-8000/mo,0-100/mo,Ongoing,Not Started,AppTweak or SensorTower for tracking
-39,P1,Post-Launch,Both,Marketing,Launch Day Social Campaign,Maximize visibility on launch day.,,"1. Prepare launch announcement posts
+5. Update keywords based on performance data",Published app + ASO tool,Not Started,,,,0-8000/mo,0-100/mo,Ongoing,AppTweak or SensorTower for tracking
+39,P1,Post-Launch,Both,Marketing,Launch Day Social Campaign,Maximize visibility on launch day.,Launch campaign executed,"1. Prepare launch announcement posts
 2. Email waitlist with download links
 3. Post on Product Hunt (optional)
 4. Share in relevant communities (Reddit, Facebook groups)
-5. Reach out to early adopters for reviews",Published app + Social accounts,,,0-3000,0-35,1 day,Not Started,Product Hunt can drive significant traffic
-40,P2,Post-Launch,Both,Marketing,Content Marketing Strategy,Build organic traffic through content.,,"1. Start a blog (Medium or own site)
+5. Reach out to early adopters for reviews",Published app + Social accounts,Not Started,,,,0-3000,0-35,1 day,Product Hunt can drive significant traffic
+40,P2,Post-Launch,Both,Marketing,Content Marketing Strategy,Build organic traffic through content.,Content plan,"1. Start a blog (Medium or own site)
 2. Write about community management tips
 3. Case studies of successful communities
 4. SEO-optimized articles
-5. Share on social media",Website/blog platform,,,0-5000,0-60,Ongoing,Not Started,Long-term strategy. Takes 3-6 months to see results
-41,P1,Post-Launch,Both,Marketing,Influencer/Community Outreach,Partner with community leaders.,,"1. Identify local community group leaders
+5. Share on social media",Website/blog platform,Not Started,,,,0-5000,0-60,Ongoing,Long-term strategy. Takes 3-6 months to see results
+41,P1,Post-Launch,Both,Marketing,Influencer/Community Outreach,Partner with community leaders.,Partnerships established,"1. Identify local community group leaders
 2. Offer free premium features for testimonials
 3. Create case studies together
 4. Get video testimonials
-5. Feature on landing page",Published app + Relationship building,,,0-15000,0-180,Ongoing,Not Started,Word of mouth is powerful for community apps
-42,P1,Post-Launch,Both,Operations,Set Up Customer Support,Handle user questions and issues.,,"1. Create support email (support@grove.app)
+5. Feature on landing page",Published app + Relationship building,Not Started,,,,0-15000,0-180,Ongoing,Word of mouth is powerful for community apps
+42,P1,Post-Launch,Both,Operations,Set Up Customer Support,Handle user questions and issues.,Support system live,"1. Create support email (support@grove.app)
 2. Set up FAQ/Help section in app
 3. Configure auto-replies
 4. Create response templates
-5. Monitor reviews for issues",Email setup,,,0-3000/mo,0-35/mo,1-2 days,Not Started,Start with free email. Intercom later
-43,P1,Post-Launch,Both,Operations,Set Up Review Monitoring,Track and respond to store reviews.,,"1. Enable email notifications in store consoles
+5. Monitor reviews for issues",Email setup,Not Started,,,,0-3000/mo,0-35/mo,1-2 days,Start with free email. Intercom later
+43,P1,Post-Launch,Both,Operations,Set Up Review Monitoring,Track and respond to store reviews.,Review monitoring active,"1. Enable email notifications in store consoles
 2. Use AppFollow or similar (optional)
 3. Respond to negative reviews within 24h
 4. Thank positive reviewers
-5. Track trends and common issues",Published app,,,0-5000/mo,0-60/mo,Ongoing,Not Started,Manual monitoring is free. Reviews impact ranking.
-44,P1,Post-Launch,Both,Operations,Create Release Process,Standard process for updates.,,"1. Document version numbering scheme
+5. Track trends and common issues",Published app,Not Started,,,,0-5000/mo,0-60/mo,Ongoing,Manual monitoring is free. Reviews impact ranking.
+44,P1,Post-Launch,Both,Operations,Create Release Process,Standard process for updates.,Release process documented,"1. Document version numbering scheme
 2. Create release checklist
 3. Set up staging environment
 4. Plan testing before each release
-5. Communicate updates to users",Published app,,,0,0,1 day,Not Started,Document in team wiki/docs
-45,P1,Post-Launch,Both,Growth,In-App Review Prompts,Ask happy users for reviews at right moments.,,"1. Integrate expo-store-review
+5. Communicate updates to users",Published app,Not Started,,,,0,0,1 day,Document in team wiki/docs
+45,P1,Post-Launch,Both,Growth,In-App Review Prompts,Ask happy users for reviews at right moments.,Review prompts implemented,"1. Integrate expo-store-review
 2. Trigger after positive moments (event success, milestone)
 3. Don't ask too early (wait 7+ days)
 4. Respect user choice (don't ask again if declined)
-5. A/B test timing",Published app,,,0,0,2-4 hours,Not Started,Good reviews boost ranking significantly
-46,P2,Post-Launch,Both,Growth,Set Up Referral Program,In-app referral for organic growth.,,"1. Design referral flow (unique invite links)
+5. A/B test timing",Published app,Not Started,,,,0,0,2-4 hours,Good reviews boost ranking significantly
+46,P2,Post-Launch,Both,Growth,Set Up Referral Program,In-app referral for organic growth.,Referral system live,"1. Design referral flow (unique invite links)
 2. Track referrals in Supabase
 3. Reward referrers (premium features/recognition)
 4. Show referral leaderboard
-5. Promote within app",App with user base,,,0-5000,0-60,3-5 days,Not Started,Can implement with Supabase. Most powerful growth lever.
-47,P2,Post-Launch,Both,Growth,Community Building (Meta),Build a community for Grove users.,,"1. Create Discord/Slack for power users
+5. Promote within app",App with user base,Not Started,,,,0-5000,0-60,3-5 days,Can implement with Supabase. Most powerful growth lever.
+47,P2,Post-Launch,Both,Growth,Community Building (Meta),Build a community for Grove users.,User community created,"1. Create Discord/Slack for power users
 2. Host virtual meetups/webinars
 3. Share best practices and tips
 4. Gather feedback directly
-5. Create ambassador program",Published app + Community platform,,,0,0,Ongoing,Not Started,Meta-community of community organizers
-48,P2,Post-Launch,Both,Compliance,GDPR Compliance,European data protection requirements.,,"1. Add cookie consent (if web)
+5. Create ambassador program",Published app + Community platform,Not Started,,,,0,0,Ongoing,Meta-community of community organizers
+48,P2,Post-Launch,Both,Compliance,GDPR Compliance,European data protection requirements.,GDPR compliant,"1. Add cookie consent (if web)
 2. Allow data export from settings
 3. Allow account deletion
 4. Document data processing
-5. Update privacy policy",Privacy Policy + App functionality,,,0-8000,0-100,2-3 days,Not Started,Required if targeting EU users
-49,P2,Post-Launch,Both,Compliance,COPPA Compliance,If app may be used by children.,,"1. Determine if app targets children
+5. Update privacy policy",Privacy Policy + App functionality,Not Started,,,,0-8000,0-100,2-3 days,Required if targeting EU users
+49,P2,Post-Launch,Both,Compliance,COPPA Compliance,If app may be used by children.,COPPA assessment,"1. Determine if app targets children
 2. Add age verification if needed
 3. Limit data collection from minors
-4. Update privacy policy",Privacy Policy,,,0,0,1 day,Not Started,Grove targets adults (community organizers)
-50,P3,Post-Launch,Both,Growth,Localization,Translate app for new markets.,,"1. Identify target markets (Hindi, Tamil, etc.)
+4. Update privacy policy",Privacy Policy,Not Started,,,,0,0,1 day,Grove targets adults (community organizers)
+50,P3,Post-Launch,Both,Growth,Localization,Translate app for new markets.,Localized app versions,"1. Identify target markets (Hindi, Tamil, etc.)
 2. Extract strings for translation
 3. Use professional translators or Lokalise
 4. Update store listings per language
-5. Test with native speakers",Published app + Translation service,,,10000-50000,120-600,1-2 weeks,Not Started,Can significantly expand market. Start with 1-2 languages.
-51,P3,Post-Launch,Both,Growth,PR and Media Outreach,Get press coverage for credibility.,,"1. Write press release
+5. Test with native speakers",Published app + Translation service,Not Started,,,,10000-50000,120-600,1-2 weeks,Can significantly expand market. Start with 1-2 languages.
+51,P3,Post-Launch,Both,Growth,PR and Media Outreach,Get press coverage for credibility.,Media coverage,"1. Write press release
 2. Create media kit (screenshots, logos, story)
 3. Identify relevant tech/local journalists
 4. Pitch story angle (local community revival)
-5. Prepare for interviews",Published app + Media kit,,,0-25000,0-300,Ongoing,Not Started,PR can be expensive. Start with organic outreach.
-52,P3,Post-Launch,Both,Monetization,Plan Premium Features,Roadmap for monetization.,,"1. Analyze free tier usage
+5. Prepare for interviews",Published app + Media kit,Not Started,,,,0-25000,0-300,Ongoing,PR can be expensive. Start with organic outreach.
+52,P3,Post-Launch,Both,Monetization,Plan Premium Features,Roadmap for monetization.,Monetization plan,"1. Analyze free tier usage
 2. Identify power user features (analytics, export)
 3. Design subscription tiers
 4. Integrate Stripe/RevenueCat
-5. A/B test pricing",Published app + User data,,,5000-15000,60-180,2-4 weeks,Not Started,Wait until you have active users. Don't rush monetization.
-53,P1,Post-Launch,Both,Analytics,Set Up Funnel Tracking,Understand where users drop off.,,"1. Define key funnels: Signup > Create Community > Invite > First Event
+5. A/B test pricing",Published app + User data,Not Started,,,,5000-15000,60-180,2-4 weeks,Wait until you have active users. Don't rush monetization.
+53,P1,Post-Launch,Both,Analytics,Set Up Funnel Tracking,Understand where users drop off.,Funnels configured,"1. Define key funnels: Signup > Create Community > Invite > First Event
 2. Track each step in analytics
 3. Identify biggest drop-off points
 4. Create weekly funnel reports
-5. Prioritize improvements based on data",In-app analytics set up,,,0,0,1-2 days,Not Started,Critical for understanding user behavior
-54,P1,Post-Launch,Both,Analytics,Retention Analysis,Track cohort retention to measure product health.,,"1. Set up cohort analysis in analytics tool
+5. Prioritize improvements based on data",In-app analytics set up,Not Started,,,,0,0,1-2 days,Critical for understanding user behavior
+54,P1,Post-Launch,Both,Analytics,Retention Analysis,Track cohort retention to measure product health.,Retention dashboard,"1. Set up cohort analysis in analytics tool
 2. Track Day 1, Day 7, Day 30 retention
 3. Compare retention by acquisition source
 4. Identify features that correlate with retention
-5. Focus on improving D7 retention first",In-app analytics set up,,,0,0,1 day,Not Started,Retention is the key metric for product-market fit
-55,P1,Post-Launch,Both,Analytics,Weekly Analytics Review,Regular check on app health.,,"1. Schedule weekly 30-min review
+5. Focus on improving D7 retention first",In-app analytics set up,Not Started,,,,0,0,1 day,Retention is the key metric for product-market fit
+55,P1,Post-Launch,Both,Analytics,Weekly Analytics Review,Regular check on app health.,Weekly review process,"1. Schedule weekly 30-min review
 2. Check: DAU/WAU, new signups, retention
 3. Review funnel drop-offs
 4. Read new feedback/reviews
-5. Prioritize action items",Analytics + Feedback tools,,,0,0,Ongoing,Not Started,Discipline to review data regularly is key
-56,P0,Pre-Launch,iOS,Compliance,Complete App Privacy Details (iOS),Fill out App Store Connect privacy labels based on data collection and usage.,App Privacy section completed,"App Store Connect > App Privacy > answer data types, tracking, data linked to user. Align with privacy policy.",Privacy Policy completed,,,0,0,1 day,Not Started,Required for App Review. Must match actual SDK usage.
-57,P0,Pre-Launch,Android,Compliance,Complete Data Safety Form (Android),"Declare data collection, sharing, and security practices in Play Console.",Data Safety form submitted,Play Console > App content > Data safety. Map to privacy policy and SDKs used.,Privacy Policy completed,,,0,0,1 day,Not Started,Required before production release.
-58,P0,Pre-Launch,Both,Submission,Prepare App Review Notes + Demo Account,Provide reviewer instructions and test credentials if login is required.,Review notes + test account,"Create reviewer account, list steps to access core features, add in App Store Connect and Play Console.",Working build + QA sign-off,,,0,0,1 day,Not Started,Common reason for rejection if missing.
-59,P1,Pre-Launch,Both,Technical,Add Support & Marketing URLs,Set Support URL and Marketing URL in store listings.,Support + Marketing URLs live,Use landing page or docs site. Ensure privacy policy URL is reachable.,Landing page or docs hosting,,,0-1500,0-18,1 day,Not Started,Support URL is mandatory for iOS.
-60,P1,Pre-Launch,Both,Testing,Release Build Smoke Test,Install the production build and complete critical flows end-to-end.,Signed QA checklist,"Test login, community creation, invite/join, events, feed, finance, profile.",Production build ready,,,0,0,1 day,Not Started,Prevents last-minute store rejections.
-61,P1,Pre-Launch,iOS,Compliance,App Tracking Transparency (if tracking),Show ATT prompt if any tracking is used; otherwise document why not needed.,ATT prompt or N/A note,"If using tracking SDKs, add ATT prompt and update privacy labels.",Analytics/SDK list finalized,,,0,0,1 day,Not Started,Required if tracking users across apps/sites.
-
+5. Prioritize action items",Analytics + Feedback tools,Not Started,,,,0,0,Ongoing,Discipline to review data regularly is key
+56,P0,Pre-Launch,iOS,Compliance,Complete App Privacy Details (iOS),Fill out App Store Connect privacy labels based on data collection and usage.,App Privacy section completed,"App Store Connect > App Privacy > answer data types, tracking, data linked to user. Align with privacy policy.",Privacy Policy completed,Done,grove-documentation/docs/operations/store-listing-ios.md,,,0,0,1 day,Pre-filled answers provided in documentation. Required for App Review.
+57,P0,Pre-Launch,Android,Compliance,Complete Data Safety Form (Android),"Declare data collection, sharing, and security practices in Play Console.",Data Safety form submitted,Play Console > App content > Data safety. Map to privacy policy and SDKs used.,Privacy Policy completed,Done,grove-documentation/docs/operations/store-listing-android.md,,,0,0,1 day,Pre-filled answers provided in documentation. Required before production release.
+58,P0,Pre-Launch,Both,Submission,Prepare App Review Notes + Demo Account,Provide reviewer instructions and test credentials if login is required.,Review notes + test account,"Create reviewer account, list steps to access core features, add in App Store Connect and Play Console.",Working build + QA sign-off,Done,grove-documentation/docs/operations/app-review-notes.md,,,0,0,1 day,Complete instructions for both stores + SQL script for demo data setup.
+59,P1,Pre-Launch,Both,Technical,Add Support & Marketing URLs,Set Support URL and Marketing URL in store listings.,Support + Marketing URLs live,Use landing page or docs site. Ensure privacy policy URL is reachable.,Landing page or docs hosting,Not Started,,,,0-1500,0-18,1 day,Support URL is mandatory for iOS.
+60,P1,Pre-Launch,Both,Testing,Release Build Smoke Test,Install the production build and complete critical flows end-to-end.,Signed QA checklist,"Test login, community creation, invite/join, events, feed, finance, profile.",Production build ready,Done,grove-documentation/docs/operations/smoke-test-checklist.md,,,0,0,1 day,50+ test cases with sign-off sheet. Prevents last-minute store rejections.
+61,P1,Pre-Launch,iOS,Compliance,App Tracking Transparency (if tracking),Show ATT prompt if any tracking is used; otherwise document why not needed.,ATT prompt or N/A note,"If using tracking SDKs, add ATT prompt and update privacy labels.",Analytics/SDK list finalized,Not Started,,,,0,0,1 day,Required if tracking users across apps/sites.
