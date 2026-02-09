@@ -38,6 +38,8 @@ mindmap
 
 ## Documentation Overview
 
+If you can read this line, the docs deployment is serving the latest build.
+
 ### Product Documentation
 
 Understand what Grove is, who it's for, and how it works.
