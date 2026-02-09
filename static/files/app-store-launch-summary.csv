@@ -1,0 +1,12 @@
+Section,Item,Cost INR,Cost USD,Notes
+Cost Summary,One-time costs (minimum - DIY),10300,125,
+Cost Summary,One-time costs (recommended - with services),85000,1000,
+Cost Summary,Monthly recurring (free tier),0,0,
+Cost Summary,Monthly recurring (with paid tools),25000-40000,300-500,
+Key Tools,Waitlist: Framer + Formsspark,,,Free tier available
+Key Tools,Email: Loops.so,,,Free: 1000 contacts
+Key Tools,Analytics: PostHog or Mixpanel,,,Free tier available
+Key Tools,Feedback: Canny,,,Free: 100 tracked users
+Key Tools,ASO: AppTweak or SensorTower,,,~$70-80/month
+Key Tools,Screenshots: TheScreenshotFirstCompany,,,~$200-500 per set
+Key Tools,Error Tracking: Sentry,,,Free tier available

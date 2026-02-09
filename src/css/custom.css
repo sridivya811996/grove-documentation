@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap');
+
+/**
+ * Global theme overrides.
+ * Infima is the base CSS framework used by Docusaurus.
+ */
+:root {
+  --ifm-font-family-base: 'Manrope', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --ifm-heading-font-family: 'Space Grotesk', 'Manrope', system-ui, sans-serif;
+  --ifm-color-primary: #0f5e4f;
+  --ifm-color-primary-dark: #0d5245;
+  --ifm-color-primary-darker: #0b4b3f;
+  --ifm-color-primary-darkest: #08372f;
+  --ifm-color-primary-light: #1a6f5e;
+  --ifm-color-primary-lighter: #2a7a69;
+  --ifm-color-primary-lightest: #3b8c79;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(15, 94, 79, 0.12);
+  --grove-surface: #f7f4ee;
+  --grove-surface-muted: #efe9de;
+  --grove-ink: #0e1b18;
+  --grove-ink-muted: #5d6a66;
+  --grove-border: #d9d2c6;
+  --grove-accent: #f2c066;
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #9ed9c9;
+  --ifm-color-primary-dark: #84cbb8;
+  --ifm-color-primary-darker: #77c3af;
+  --ifm-color-primary-darkest: #5aa896;
+  --ifm-color-primary-light: #b6e5d8;
+  --ifm-color-primary-lighter: #c2eadf;
+  --ifm-color-primary-lightest: #e2f6ef;
+  --docusaurus-highlighted-code-line-bg: rgba(15, 94, 79, 0.3);
+  --grove-surface: #0c1513;
+  --grove-surface-muted: #0f1d1a;
+  --grove-ink: #f2f5f4;
+  --grove-ink-muted: #aab5b1;
+  --grove-border: #1f2c29;
+  --grove-accent: #f2c066;
+}
+
+.navbar__title {
+  font-family: var(--ifm-heading-font-family);
+  letter-spacing: 0.4px;
+}
+
+.markdown a {
+  text-underline-offset: 3px;
+}
