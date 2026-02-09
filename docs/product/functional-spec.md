@@ -1,5 +1,6 @@
 ---
 title: Functional specification
+sidebar_position: 4
 ---
 
 This specification defines the Grove app scope for the MVP and the next phases. It reflects current product direction and avoids features that add risk before launch.

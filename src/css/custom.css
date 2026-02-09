@@ -49,3 +49,40 @@
 .markdown a {
   text-underline-offset: 3px;
 }
+
+.colorGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.colorCard {
+  border-radius: 14px;
+  border: 1px solid var(--grove-border);
+  background: #fff;
+  padding: 0.9rem;
+  display: grid;
+  gap: 0.5rem;
+  box-shadow: 0 10px 20px rgba(14, 27, 24, 0.08);
+}
+
+[data-theme='dark'] .colorCard {
+  background: #111d1a;
+}
+
+.colorSwatch {
+  height: 72px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.colorLabel {
+  font-weight: 600;
+  color: var(--grove-ink);
+}
+
+.colorMeta {
+  font-size: 0.85rem;
+  color: var(--grove-ink-muted);
+}

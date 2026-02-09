@@ -1,5 +1,6 @@
 ---
 title: Idea origin
+sidebar_position: 1
 ---
 
 Grove began as a response to a simple observation: real community groups run on fragile tools. WhatsApp threads, scattered spreadsheets, and ad-hoc emails make it hard to stay organized, inclusive, and transparent.

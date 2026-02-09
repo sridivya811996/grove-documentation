@@ -1,5 +1,6 @@
 ---
 title: Value proposition
+sidebar_position: 2
 ---
 
 Grove provides a single home for community operations without the weight of enterprise tools.

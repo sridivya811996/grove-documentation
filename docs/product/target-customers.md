@@ -1,29 +1,44 @@
 ---
 title: Target customers
+sidebar_position: 3
 ---
 
-Grove is built for community groups that outgrow group chat but do not need enterprise tools.
+Grove is designed for community groups that have real coordination needs but do not want enterprise tools.
 
-Primary segments
-- Local civic and neighborhood groups (parks, cleanups, residents associations)
-- Faith and cultural organizations (temples, churches, mosques, community festivals)
-- Volunteer and charity teams (food drives, fundraising, animal rescue)
-- Sports and hobby clubs (cricket, running, cycling, book clubs)
-- Parent and school groups (PTA, class committees)
+Customer segments
 
-Shared needs across segments
+Local civic and neighborhood groups
+- Typical examples: park friends groups, clean‑up teams, resident associations
+- Why Grove helps: events, volunteer tasks, and simple finance tracking in one place
+
+Faith and cultural communities
+- Typical examples: temples, churches, mosques, cultural associations, festival teams
+- Why Grove helps: repeat events, meeting minutes, and member coordination without chaos
+
+Volunteer and charity teams
+- Typical examples: food drives, animal rescue, fundraising teams
+- Why Grove helps: clear task assignments, deadlines, and transparent contributions
+
+Sports and hobby clubs
+- Typical examples: cricket, running, cycling, book clubs
+- Why Grove helps: recurring events, RSVPs, and simple announcements without spam
+
+Parent and school groups
+- Typical examples: PTA groups, class committees
+- Why Grove helps: schedules, reminders, and shared updates for all parents
+
+Common needs across segments
 - Clear events and RSVP tracking
-- Meeting minutes with action items
-- Volunteer coordination and task ownership
-- Shared documents and photos
-- Transparent financial tracking
+- Action items from meetings and tasks with owners
+- Shared photos and documents
+- Transparent finance requests
 
-Buyer and influencer profile
-- Community organizers and admins are the primary decision makers
+Primary buyer and influencer
+- Community organizers and admins decide to adopt
 - Members adopt quickly when setup is simple and reminders are reliable
 
-Early adopters
-- Local groups already managing budgets or regular events
-- Communities frustrated by WhatsApp chaos and spreadsheet overhead
+Early adopter profile
+- Groups with monthly events or recurring tasks
+- Communities already juggling WhatsApp plus spreadsheets
 
 This focus keeps Grove relevant, practical, and immediately useful.

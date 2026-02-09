@@ -1,5 +1,6 @@
 ---
 title: Product roadmap
+sidebar_position: 6
 ---
 
 This roadmap outlines near-term priorities and longer-term vision for Grove.
