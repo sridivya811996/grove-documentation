@@ -66,7 +66,7 @@ Sequence,Priority,Phase,Store,Category,Activity,Description,Deliverable,How To D
 2. Mention bug fixes
 3. Keep it concise and user-friendly
 4. Update with each release",Version planning,,,0,0,1 day,Not Started,Keep template ready for future releases
-16,P0,Pre-Launch,Both,Technical,Configure App Bundle ID / Package Name,Unique identifier for your app. Cannot change after publish.,,"1. Choose format: com.grove.app or similar
+16,P0,Pre-Launch,Both,Technical,Configure App Bundle ID / Package Name,Unique identifier for The Grove app. Cannot change after publish.,,"1. Choose format: com.grove.app or similar
 2. Update app.json ios.bundleIdentifier
 3. Update app.json android.package
 4. Ensure consistency",None,,,0,0,1 hour,In Progress,Current: com.grove.app - verify availability
@@ -269,3 +269,4 @@ Sequence,Priority,Phase,Store,Category,Activity,Description,Deliverable,How To D
 59,P1,Pre-Launch,Both,Technical,Add Support & Marketing URLs,Set Support URL and Marketing URL in store listings.,Support + Marketing URLs live,Use landing page or docs site. Ensure privacy policy URL is reachable.,Landing page or docs hosting,,,0-1500,0-18,1 day,Not Started,Support URL is mandatory for iOS.
 60,P1,Pre-Launch,Both,Testing,Release Build Smoke Test,Install the production build and complete critical flows end-to-end.,Signed QA checklist,"Test login, community creation, invite/join, events, feed, finance, profile.",Production build ready,,,0,0,1 day,Not Started,Prevents last-minute store rejections.
 61,P1,Pre-Launch,iOS,Compliance,App Tracking Transparency (if tracking),Show ATT prompt if any tracking is used; otherwise document why not needed.,ATT prompt or N/A note,"If using tracking SDKs, add ATT prompt and update privacy labels.",Analytics/SDK list finalized,,,0,0,1 day,Not Started,Required if tracking users across apps/sites.
+

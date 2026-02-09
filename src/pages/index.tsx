@@ -11,28 +11,28 @@ import styles from './index.module.css';
 const docCards = [
   {
     title: 'Product',
-    description: 'Market research, user stories, and target customers.',
-    link: '/docs/product/market-research-and-differentiation',
+    description: 'Idea origin, functional spec, and target customers.',
+    link: '/docs/product/idea',
   },
   {
-    title: 'Architecture',
-    description: 'System design, permissions, auth strategy, feature flags.',
-    link: '/docs/architecture/architecture',
+    title: 'Technical',
+    description: 'Architecture, data model, stack decisions, and security.',
+    link: '/docs/technical/overview',
   },
   {
-    title: 'UX & Design',
-    description: 'Design system, screen designs, and visual assets.',
-    link: '/docs/ux-design/ui-ux-design-system',
+    title: 'Design',
+    description: 'Design principles, assets, and screen references.',
+    link: '/docs/design/overview',
   },
   {
-    title: 'Engineering',
-    description: 'Tech landscape, roadmap, and infrastructure automation.',
-    link: '/docs/engineering/technology-landscape',
+    title: 'Marketing',
+    description: 'Go-to-market strategy and growth plan.',
+    link: '/docs/marketing/strategy',
   },
   {
-    title: 'Operations',
-    description: 'App store launch checklist, guide, and release ops.',
-    link: '/docs/operations/app-store-checklist',
+    title: 'Route to Live',
+    description: 'Launch checklist, store assets, and release process.',
+    link: '/docs/live/overview',
   },
 ];
 
@@ -70,7 +70,7 @@ function HomepageHeader() {
               <Link className="button button--primary" to="/docs/intro">
                 Start here
               </Link>
-              <Link className="button button--outline" to="/docs/product/market-research-and-differentiation">
+              <Link className="button button--outline" to="/docs/product/idea">
                 Explore product docs
               </Link>
             </div>

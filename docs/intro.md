@@ -1,19 +1,16 @@
 ---
-sidebar_position: 1
+title: Grove documentation hub
 ---
 
-# Grove documentation hub
+Welcome to the Grove app documentation. This site is the single source of truth for product, technical, design, marketing, and launch materials.
 
-Welcome to the Grove product documentation. Use the left sidebar to navigate, or jump to key areas below.
+Use the left sidebar to navigate by area:
 
-## Quick links
-- Product: market research, user stories, target customers
-- Architecture: system design, permissions, auth strategy, feature flags
-- UX & Design: design system, screen designs, icon assets
-- Engineering: tech landscape, roadmap, infra automation
-- Operations: app store launch checklist and launch guide
+- Product: idea, functional specification, target customers
+- Technical: architecture, data model, stack decisions
+- Design: experience principles and visual assets
+- Marketing: go-to-market strategy and growth plan
+- Route to Live: launch checklist, store assets, release process
+- Legal: privacy policy and terms of service
 
-## Downloads
-- App store launch checklist (CSV): /files/app-store-launch-checklist.csv
-- App store launch summary (CSV): /files/app-store-launch-summary.csv
-- Design preview (HTML): /files/design-preview.html
+If you need to contribute, add new pages under the relevant section and keep content concise and non-redundant.

@@ -1,97 +1,29 @@
-# Target customers
+---
+title: Target customers
+---
 
-Local & civic community groups
+Grove is built for community groups that outgrow group chat but do not need enterprise tools.
 
-???Friends of??? park / green space groups (cleanups, planting, fundraising)
+Primary segments
+- Local civic and neighborhood groups (parks, cleanups, residents associations)
+- Faith and cultural organizations (temples, churches, mosques, community festivals)
+- Volunteer and charity teams (food drives, fundraising, animal rescue)
+- Sports and hobby clubs (cricket, running, cycling, book clubs)
+- Parent and school groups (PTA, class committees)
 
-Community garden / allotment groups
+Shared needs across segments
+- Clear events and RSVP tracking
+- Meeting minutes with action items
+- Volunteer coordination and task ownership
+- Shared documents and photos
+- Transparent financial tracking
 
-Neighbourhood watch / street WhatsApp groups (but with structure)
+Buyer and influencer profile
+- Community organizers and admins are the primary decision makers
+- Members adopt quickly when setup is simple and reminders are reliable
 
-Residents associations / tenant associations
+Early adopters
+- Local groups already managing budgets or regular events
+- Communities frustrated by WhatsApp chaos and spreadsheet overhead
 
-Local charity volunteer groups
-
-Town/village community committees
-
-Parent???teacher associations (PTA) / school parent groups
-
-Faith & cultural communities
-
-Temple / church / mosque / gurdwara committees
-
-Cultural associations (Telugu/Tamil/Malayali, etc.)
-
-Festival organising groups (Diwali, Eid, Christmas events)
-
-Community kitchens / seva volunteer groups
-
-Sports, fitness & hobby clubs
-
-Amateur sports clubs (cricket, football, badminton, running clubs)
-
-Kids sports teams + parents group
-
-Cycling groups / hiking groups
-
-Martial arts academies / dance schools
-
-Chess clubs / book clubs / photography clubs
-
-Music bands / choir groups
-
-Professional & networking groups
-
-Alumni groups
-
-Local meetup chapters (tech, entrepreneurship)
-
-Women-in-tech / career groups
-
-Coworking community groups
-
-Trade associations / small business networks
-
-Social & family-style groups
-
-Apartment/flat building communities (maintenance + events)
-
-Housing society committees (especially India style)
-
-Wedding planning groups / family event groups
-
-Travel groups / tour groups
-
-Cause-based & non-profit operations
-
-Environmental NGOs with local chapters
-
-Food bank volunteers / donation drives
-
-Animal rescue volunteers / foster networks
-
-Community fundraising groups
-
-Special-case communities
-
-Makerspaces / hobby labs
-
-Scouts / guides / youth clubs
-
-University societies / clubs
-
-Community art groups / theatre groups
-
-Simple way to describe it
-
-Any group that needs:
-
-events + RSVPs,
-
-meetings + minutes + actions,
-
-volunteers + roles,
-
-shared documents/photos,
-
-and transparent money tracking,
+This focus keeps Grove relevant, practical, and immediately useful.
