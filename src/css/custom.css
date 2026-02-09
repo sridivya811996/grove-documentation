@@ -86,3 +86,37 @@
   font-size: 0.85rem;
   color: var(--grove-ink-muted);
 }
+
+.screenGrid {
+  display: grid;
+  gap: 1.25rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  margin: 1.5rem 0 2rem;
+}
+
+.screenCard {
+  border-radius: 16px;
+  border: 1px solid var(--grove-border);
+  background: #fff;
+  padding: 0.75rem;
+  display: grid;
+  gap: 0.5rem;
+  box-shadow: 0 10px 20px rgba(14, 27, 24, 0.08);
+}
+
+[data-theme='dark'] .screenCard {
+  background: #111d1a;
+}
+
+.screenCard img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.screenLabel {
+  font-weight: 600;
+  color: var(--grove-ink);
+  text-align: center;
+}
