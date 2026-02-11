@@ -1,66 +1,43 @@
 ---
-title: Screen reference
+title: Screen Reference
 sidebar_position: 2
 ---
 
-This page summarizes core screens in the Grove app.
+# Screen Reference
 
-Primary flows
-- Sign in and sign up
-- Community list and discovery
-- Community details with events, tasks, and finance
-- Feed updates and comments
+This section intentionally avoids large inline screenshot walls.
 
-Screenshots gallery
+## Why
 
-Add real screenshots to `static/img/screens/` with the filenames below. Once added, they will render automatically in this gallery.
+Previous image-heavy pages were hard to scan and quickly became outdated.
 
-import useBaseUrl from '@docusaurus/useBaseUrl';
+## Current Standard
 
-<div className="screenGrid">
-  <div className="screenCard">
-    <img src={useBaseUrl('/img/screens/login.png')} alt="Login screen" />
-    <div className="screenLabel">Login</div>
-  </div>
-  <div className="screenCard">
-    <img src={useBaseUrl('/img/screens/home.png')} alt="Home screen" />
-    <div className="screenLabel">Home</div>
-  </div>
-  <div className="screenCard">
-    <img src={useBaseUrl('/img/screens/community.png')} alt="Community detail screen" />
-    <div className="screenLabel">Community</div>
-  </div>
-  <div className="screenCard">
-    <img src={useBaseUrl('/img/screens/events.png')} alt="Events list screen" />
-    <div className="screenLabel">Events</div>
-  </div>
-  <div className="screenCard">
-    <img src={useBaseUrl('/img/screens/event-detail.png')} alt="Event detail screen" />
-    <div className="screenLabel">Event detail</div>
-  </div>
-  <div className="screenCard">
-    <img src={useBaseUrl('/img/screens/tasks.png')} alt="Tasks screen" />
-    <div className="screenLabel">Tasks</div>
-  </div>
-  <div className="screenCard">
-    <img src={useBaseUrl('/img/screens/feed.png')} alt="Feed screen" />
-    <div className="screenLabel">Feed</div>
-  </div>
-  <div className="screenCard">
-    <img src={useBaseUrl('/img/screens/finance.png')} alt="Finance screen" />
-    <div className="screenLabel">Finance</div>
-  </div>
-  <div className="screenCard">
-    <img src={useBaseUrl('/img/screens/profile.png')} alt="Profile screen" />
-    <div className="screenLabel">Profile</div>
-  </div>
-  <div className="screenCard">
-    <img src={useBaseUrl('/img/screens/notifications.png')} alt="Notifications screen" />
-    <div className="screenLabel">Notifications</div>
-  </div>
-</div>
+- Keep screenshots curated and release-tagged
+- Prefer focused walkthroughs over dense galleries
+- Use architecture and sequence diagrams for behavior explanation
 
-Recommended format
-- PNG images
-- 1080 x 2400 (or similar 20:9 aspect ratio)
-- Keep UI visible without cropping
+## Screenshot Asset Rules
+
+- Location: `static/img/screens/`
+- Format: PNG
+- Aspect: 20:9 preferred
+- Naming: `<module>-<screen>-<state>.png`
+
+Examples:
+
+- `auth-login-default.png`
+- `community-detail-member.png`
+- `event-detail-admin.png`
+- `tasks-update-modal.png`
+
+## Suggested Coverage Set
+
+- Authentication
+- Community detail and settings
+- Event detail with RSVP and agenda
+- Tasks status update flow
+- Finance summary and transaction detail
+- Feed and comments
+- Chat list and channel thread
+- Notifications center
